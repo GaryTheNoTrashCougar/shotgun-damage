@@ -9,11 +9,11 @@ Events:Subscribe('Partition:Loaded', function(partition)
                 
                 buckshotEntity:MakeWritable()
 
-                buckshotEntity.startDamage = 36
-                buckshotEntity.endDamage = 10
+                buckshotEntity.startDamage = 27
+                buckshotEntity.endDamage = 7.5
 
-                buckshotEntity.damageFalloffStartDistance = 16
-                buckshotEntity.damageFalloffEndDistance = 50
+                buckshotEntity.damageFalloffStartDistance = 12
+                buckshotEntity.damageFalloffEndDistance = 37.5
 
             end
 			
@@ -24,11 +24,11 @@ Events:Subscribe('Partition:Loaded', function(partition)
                 
                 flechetteEntity:MakeWritable()
 
-                flechetteEntity.startDamage = 25
-                flechetteEntity.endDamage = 16.8
+                flechetteEntity.startDamage = 18.75
+                flechetteEntity.endDamage = 12.6
 
-                flechetteEntity.damageFalloffStartDistance = 28
-                flechetteEntity.damageFalloffEndDistance = 60
+                flechetteEntity.damageFalloffStartDistance = 21
+                flechetteEntity.damageFalloffEndDistance = 45
 
             end
 			
@@ -39,11 +39,11 @@ Events:Subscribe('Partition:Loaded', function(partition)
                 
                 fragEntity:MakeWritable()
 
-                fragEntity.startDamage = 40
-                fragEntity.endDamage = 10
+                fragEntity.startDamage = 30
+                fragEntity.endDamage = 7.5
 
-                fragEntity.damageFalloffStartDistance = 16
-                fragEntity.damageFalloffEndDistance = 80
+                fragEntity.damageFalloffStartDistance = 12
+                fragEntity.damageFalloffEndDistance = 60
 
             end
 			
@@ -54,11 +54,11 @@ Events:Subscribe('Partition:Loaded', function(partition)
                 
                 fragPumpEntity:MakeWritable()
 
-                fragPumpEntity.startDamage = 75
-                fragPumpEntity.endDamage = 20
+                fragPumpEntity.startDamage = 56.25
+                fragPumpEntity.endDamage = 15
 
-                fragPumpEntity.damageFalloffStartDistance = 16
-                fragPumpEntity.damageFalloffEndDistance = 80
+                fragPumpEntity.damageFalloffStartDistance = 12
+                fragPumpEntity.damageFalloffEndDistance = 60
 
             end
 			
@@ -72,8 +72,8 @@ Events:Subscribe('Partition:Loaded', function(partition)
                 slugEntity.startDamage = 75
                 slugEntity.endDamage = 37.5
 
-                slugEntity.damageFalloffStartDistance = 30
-                slugEntity.damageFalloffEndDistance = 100
+                slugEntity.damageFalloffStartDistance = 22.5
+                slugEntity.damageFalloffEndDistance = 75
 
             end
 			
@@ -87,8 +87,8 @@ Events:Subscribe('Partition:Loaded', function(partition)
                 slugPumpEntity.startDamage = 100
                 slugPumpEntity.endDamage = 40
 
-                slugPumpEntity.damageFalloffStartDistance = 30
-                slugPumpEntity.damageFalloffEndDistance = 100
+                slugPumpEntity.damageFalloffStartDistance = 22.5
+                slugPumpEntity.damageFalloffEndDistance = 75
 
             end
 			
@@ -99,11 +99,11 @@ Events:Subscribe('Partition:Loaded', function(partition)
                 
                 flechette40mmEntity:MakeWritable()
 
-                flechette40mmEntity.startDamage = 50
-                flechette40mmEntity.endDamage = 16.8
+                flechette40mmEntity.startDamage = 37.5
+                flechette40mmEntity.endDamage = 12.6
 
-                flechette40mmEntity.damageFalloffStartDistance = 16
-                flechette40mmEntity.damageFalloffEndDistance = 100
+                flechette40mmEntity.damageFalloffStartDistance = 12
+                flechette40mmEntity.damageFalloffEndDistance = 75
 
             end
         end
